@@ -1,0 +1,44 @@
+baseURL = 'https://blog.gitbundle.com'
+title = 'The GitBundle Blog'
+author = 'cgxxv'
+copyright = "GitBundle"
+paginate = 10
+languageCode = 'en-us'
+theme = "tailwind"
+
+
+[params]
+  showMenu = false
+
+  showTaxonomies = false
+
+  # dir name of your blog content (default is `content/posts`).
+  # the list of set content will show up on your index page (baseurl).
+  contentTypeName = "posts"
+
+  [params.header]
+    logo = "logo.png"
+
+
+  [params.footer]
+    since = 2023
+    poweredby = false
+
+[menu]
+
+  [[menu.main]]
+    identifier = "post"
+    name = "Post"
+    pageRef = "/posts"
+    weight = 0
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    pageRef = "/about"
+    weight = 10
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
