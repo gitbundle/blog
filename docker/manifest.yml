@@ -1,0 +1,15 @@
+image: gitbundle.com/bundle/gitbundle-blog:latest
+tags:
+  - "latest"
+manifests:
+  -
+    image: gitbundle.com/bundle/gitbundle-blog:linux-amd64
+    platform:
+      architecture: amd64
+      os: linux
+  -
+    image: gitbundle.com/bundle/gitbundle-blog:linux-arm64
+    platform:
+      architecture: arm64
+      os: linux
+      variant: v8
