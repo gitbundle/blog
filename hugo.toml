@@ -1,5 +1,5 @@
 baseURL = 'https://blog.gitbundle.com'
-title = 'The GitBundle Blog'
+title = 'Cloud Native Git Service'
 author = 'cgxxv'
 copyright = "GitBundle"
 paginate = 10
@@ -8,8 +8,10 @@ theme = "tailwind"
 
 
 [params]
-  showMenu = false
+  keywords = "GitBundle, Cloud Native Git Service, CI/CD, 云原生 Git 服务"
+  subtitle = "Cloud Native Git Service (云原生 Git 服务)"
 
+  showMenu = false
   showTaxonomies = false
 
   # dir name of your blog content (default is `content/posts`).
